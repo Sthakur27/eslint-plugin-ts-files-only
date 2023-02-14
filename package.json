@@ -1,11 +1,19 @@
 {
   "name": "eslint-plugin-ts-files-only",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "prevents creation of js files in specified folders",
   "main": "lib/",
   "scripts": {
+    "lint": "eslint . --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "coopdedoop",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
 }
