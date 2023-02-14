@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ts-files-only",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "prevents creation of js files in specified folders",
   "main": "lib/",
   "scripts": {
