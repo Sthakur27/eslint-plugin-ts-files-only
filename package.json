@@ -1,11 +1,11 @@
 {
-  "name": "ts-files-only",
+  "name": "eslint-plugin-ts-files-only",
   "version": "1.0.0",
   "description": "prevents creation of js files in specified folders",
-  "main": "index.js",
+  "main": "lib/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sthakur27",
+  "author": "coopdedoop",
   "license": "MIT"
 }
